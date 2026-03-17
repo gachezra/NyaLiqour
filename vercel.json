@@ -1,0 +1,6 @@
+{
+  "buildCommand": "pnpm --filter @workspace/nyaliqour run build",
+  "outputDirectory": "artifacts/nyaliqour/dist",
+  "installCommand": "pnpm install",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
