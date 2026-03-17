@@ -3,34 +3,24 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 
-// Check if we are in Replit to load Replit-specific things
-const isReplit = !!process.env.REPL_ID;
-
-export default defineConfig(async () => {
-  // Define plugins array
-  const plugins = [react(), tailwindcss()];
-
-  // Only load Replit plugins if actually on Replit
-  if (isReplit) {
-    try {
-      const { mockupPreviewPlugin } = await import("./mockupPreviewPlugin");
-      const runtimeErrorOverlay = (await import("@replit/vite-plugin-runtime-error-modal")).default;
-      plugins.push(mockupPreviewPlugin(), runtimeErrorOverlay());
-    } catch (e) {
-      console.warn("Replit plugins failed to load, skipping...");
-    }
-  }
-
-  return {
-    plugins,
-    resolve: {
-      alias: {
-        "@": path.resolve(__dirname, "src"),
-      },
+export default defineConfig({
+  // Force base to / so Vercel doesn't download as a file
+  base: "/", 
+  plugins: [
+    react(),
+    tailwindcss(),
+  ],
+  resolve: {
+    alias: {
+      // Use absolute pathing to avoid Monorepo confusion
+      "@": path.resolve(__dirname, "./src"),
     },
-    build: {
-      outDir: "dist",
-      emptyOutDir: true,
-    },
-  };
+  },
+  build: {
+    // We force the output to 'dist'. 
+    // If it was going to 'dist/public' before, this fixes it.
+    outDir: "dist",
+    emptyOutDir: true,
+    sourcemap: false, // Turn off to stop that Tooltip error from crashing the build
+  },
 });
