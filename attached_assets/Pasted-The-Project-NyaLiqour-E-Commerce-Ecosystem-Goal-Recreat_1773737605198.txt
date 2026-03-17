@@ -1,0 +1,45 @@
+The Project: NyaLiqour E-Commerce Ecosystem
+Goal: Recreate the architecture and "Spirit Authority" aesthetic of The Whisky Exchange for a new brand, NyaLiqour. The site must transition from a high-conversion retail store to a high-authority educational hub.
+1. Site Map & Navigation Hierarchy
+Top Utility: Global shipping selector, Trustpilot rating (4.9/5 stars), "Trade" link, and "Customer Service."
+Main Header:
+Logo: NyaLiqour (Centered or Left).
+Search: Intelligence-based search bar with predictive results and category suggestions.
+Account/Cart: Subtle, icon-based with a sliding mini-cart overlay.
+Primary Navigation (Mega-Menu):
+Scotch Whisky: (Sub-menus by Region: Islay, Speyside, Highland; and by Type: Single Malt, Blended).
+World Spirits: (Sub-menus: Gin, Rum, Tequila, Cognac).
+Old & Rare: A dedicated high-luxury section with a different background hue (e.g., deep navy or charcoal).
+Gifts: Categorized by "Personalized," "Sets," and "Price Point."
+Inspiration Hub: (The "Journal" - articles, tasting guides, and distillery deep-dives).
+2. Design Language (The "NyaLiqour" Aesthetic)
+Color Palette: Use a "Modern Heritage" scheme.
+Primary: Off-black or "Obsidian" (#0F0F0F) for text and headers.
+Secondary: Rich Cream (#F9F7F2) for section backgrounds to reduce eye strain.
+Accent: Burnished Copper (#B87333) for "Add to Basket" buttons and price highlights.
+Typography:
+Headings: A sophisticated Serif (e.g., Playfair Display or Georgia) to convey authority.
+Body: A clean, high-legibility Sans-Serif (e.g., Montserrat or Inter).
+Imagery: "Floating" product shots with soft drop shadows on a white/light-grey background within product cards.
+3. Core Page Templates
+A. The Homepage (The Curator)
+Hero Slider: High-motion lifestyle shots with a focus on "The Art of the Pour."
+Guided Discovery: A "Find Your Bottle" widget with three dropdowns: Spirit Type -> Flavor Profile -> Budget.
+Trending Grids: Responsive 4-column grid showing "New Arrivals" and "NyaLiqour Exclusives."
+Flavour Camps: Visual tiles (e.g., "Peaty & Smoky," "Rich & Fruity") that lead to filtered results.
+B. Product Listing Page (The Library)
+Faceted Sidebar: A deep filtering system including: Category, Brand, Price, Age, ABV, Bottler, and Flavor Camp.
+Product Cards: Must show: Bottle Name, ABV %, Bottle Size, Price, Price-per-Litre, and a "Quick Add" hover button.
+Sorting: "Most Popular," "Price: Low to High," and "Expert Rating."
+C. Product Detail Page (The Expert) - Critical Detail
+3-Column Desktop Layout:
+Left: High-res vertical bottle image with a "Zoom" feature.
+Center: Product description, heritage story, and "Product Facts" table (Distillery, Region, Bottler, Style).
+Right: Sticky "Buy Box" with price, stock status, and delivery estimates.
+Tasting Notes Section: Distinct icons for Nose, Palate, and Finish with professional descriptions.
+Related Items: "You May Also Like" based on similar flavor profiles.
+4. Technical Features & UX
+The "Inspiration Hub": A blog-style layout using masonry grids for educational content (e.g., "How to Taste Gin," "The History of NyaLiqour").
+Sticky Header: The main navigation shrinks and sticks to the top as the user scrolls.
+Micro-interactions: Smooth hover-states on all image tiles; a "fading" transition between pages to mimic a high-end experience.
+Mobile Excellence: A bottom-docked navigation bar for "Search, Cart, and Account" on mobile devices.

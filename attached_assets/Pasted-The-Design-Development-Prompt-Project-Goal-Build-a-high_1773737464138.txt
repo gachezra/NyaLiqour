@@ -1,0 +1,34 @@
+The Design & Development Prompt
+Project Goal: Build a high-end, luxury e-commerce landing page for a premium spirits brand named "NyaLiqour". The design must mirror the structure, styling, and user experience of The Whisky Exchange. 
+1. Visual Identity & Atmosphere
+Color Palette: Use a "Dark Mode" luxury aesthetic. Primary background: Deep charcoal or near-black (#111111). Accents: Sophisticated gold or copper (#c5a059) for call-to-action buttons and highlights. Secondary text: Off-white and muted grey for hierarchy.
+Typography: Professional, clean serif fonts for headings (to convey heritage) and high-legibility sans-serif for product details and navigation.
+Imagery: Use high-resolution, "hero-style" product photography with consistent lighting and transparent or dark backgrounds to blend into the UI.
+2. Header & Navigation (Multi-Layered)
+Top Utility Bar: A thin top bar for "Free Delivery" announcements, Trustpilot ratings, and links to "Trade," "Events," and "Customer Service."
+Main Header: Central logo, a prominent search bar with an icon, and right-aligned icons for "Account" and "Basket" (with a quantity badge). Include a country/currency selector (flag icon).[1]
+Main Navigation: A horizontal mega-menu featuring categories: New In, Gifts, [Category A], [Category B], Old & Rare, Miniatures, Offers, and Inspiration.
+3. Page Structure & Hierarchy
+Hero Section: A large, high-impact carousel featuring atmospheric lifestyle shots and bold typography. Each slide should have a clear "Shop Now" button.
+"Trending Now" Product Grid: A responsive grid of product cards. Each card must include:
+Badges (e.g., "New," "Exclusive," "Popular").[1]
+Product Name and sub-details (e.g., "70cl / 40%").
+Price in bold and price-per-litre in smaller text.
+A prominent "Add to Basket" button that appears on hover or is clearly visible.
+Inspiration Tiles: A 2x3 or 3x2 grid of category tiles (e.g., "Top 10 Picks," "Personalized Gifts") using lifestyle imagery as the background for each tile.
+Guided Discovery Tool ("Find My Perfect Bottle"): A functional-looking "Wizard" section with dropdown selectors for: Drink Type, Style, and Budget.
+Editorial/Blog Section: A "Get Inspired" section featuring article cards with a thumbnail image, a title, and a short snippet.
+4. UI Elements & Details
+Social Proof: A dedicated section for a Trustpilot-style review widget showing star ratings and recent customer comments.
+Brand Carousel: A horizontal scroller of brand logos in grayscale that turn to color on hover.[1]
+Newsletter Signup: A clean, full-width or centered subscription box: "Stay Up To Date" with a simple email input and "Sign Up" button.[1]
+5. Footer Hierarchy
+Column 1 (About): Company info, History, Careers.[1]
+Column 2 (Quick Links): Gift cards, Valuations, Competitions.[1]
+Column 3 (Legal): Terms, Privacy, Cookie Policy.
+Payment Icons: A row of logos (Visa, Mastercard, Amex, PayPal, Apple Pay).[1]
+Copyright & Registered Office: Small print at the bottom including social media icons and a "Scroll to Top" button.
+6. Technical Requirements
+Responsiveness: Mobile-first approach. Ensure the product grid collapses to 1 or 2 columns on mobile.
+Hover Effects: Smooth transitions on buttons (color shifts) and product cards (slight lift or shadow).
+Sticky Elements: The main navigation should remain sticky on scroll.
