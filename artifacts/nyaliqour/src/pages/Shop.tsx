@@ -153,24 +153,24 @@ export default function Shop() {
               {openSections.price && (
                 <div className="flex items-center gap-4">
                   <div className="relative flex-1">
-                    <span className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground">£</span>
+                    <span className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground text-xs">Ksh</span>
                     <input 
                       type="number" 
                       value={minPrice} 
                       onChange={e => setMinPrice(e.target.value)}
                       placeholder="Min" 
-                      className="w-full bg-card border border-border rounded pl-8 pr-2 py-2 text-sm focus:outline-none focus:border-primary"
+                      className="w-full bg-card border border-border rounded pl-10 pr-2 py-2 text-sm focus:outline-none focus:border-primary"
                     />
                   </div>
                   <span className="text-muted-foreground">-</span>
                   <div className="relative flex-1">
-                    <span className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground">£</span>
+                    <span className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground text-xs">Ksh</span>
                     <input 
                       type="number" 
                       value={maxPrice} 
                       onChange={e => setMaxPrice(e.target.value)}
                       placeholder="Max" 
-                      className="w-full bg-card border border-border rounded pl-8 pr-2 py-2 text-sm focus:outline-none focus:border-primary"
+                      className="w-full bg-card border border-border rounded pl-10 pr-2 py-2 text-sm focus:outline-none focus:border-primary"
                     />
                   </div>
                 </div>

@@ -70,7 +70,7 @@ export function Header() {
     <>
       {/* Top Utility Bar */}
       <div className="bg-obsidian text-foreground text-xs py-1.5 px-4 hidden md:flex justify-between items-center border-b border-border/30">
-        <div className="font-medium tracking-wide">Free UK Delivery on orders over £100</div>
+        <div className="font-medium tracking-wide">Free Mombasa & Nairobi Delivery on orders over Ksh 5,000</div>
         <div className="flex items-center gap-2">
           <div className="flex text-[#FFB626]">
             {[1, 2, 3, 4, 5].map(i => <Star key={i} size={12} fill="currentColor" />)}

@@ -131,9 +131,10 @@ export default function Home() {
             </select>
             <select className="w-full md:w-auto min-w-[200px] px-6 py-4 bg-background border border-border rounded text-foreground focus:outline-none focus:border-primary appearance-none cursor-pointer">
               <option value="">Budget</option>
-              <option value="50">Under £50</option>
-              <option value="100">£50 - £100</option>
-              <option value="250">£100 - £250</option>
+              <option value="5000">Under Ksh 5,000</option>
+              <option value="10000">Ksh 5,000 – 10,000</option>
+              <option value="25000">Ksh 10,000 – 25,000</option>
+              <option value="99999">Ksh 25,000+</option>
             </select>
             <Link href="/shop" className="w-full md:w-auto px-8 py-4 bg-primary text-primary-foreground font-semibold uppercase tracking-widest text-sm hover:bg-primary/90 transition-colors whitespace-nowrap rounded">
               Find My Bottle
@@ -231,13 +232,13 @@ export default function Home() {
               {[1,2,3,4,5].map(i => <Star key={i} size={32} fill="currentColor" />)}
             </div>
           </div>
-          <h2 className="font-display text-3xl font-bold text-card-foreground mb-12">"Exceptional service and unparalleled selection"</h2>
+          <h2 className="font-display text-3xl font-bold text-card-foreground mb-12">"Nyali's finest spirits destination — simply unmatched"</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
             {[
-              { text: "Incredible selection of rare scotches. Delivery was next day and perfectly packaged.", name: "James T.", date: "2 days ago" },
-              { text: "The tasting notes are spot on. Found my new favorite Rum through their guide.", name: "Sarah M.", date: "1 week ago" },
-              { text: "Best customer service in the business. They helped me find a specific 1980 vintage for a gift.", name: "Robert W.", date: "3 weeks ago" },
+              { text: "Delivered to my doorstep in Nyali same day. Exceptional packaging and a genuinely rare Scotch selection.", name: "Amara K.", date: "2 days ago" },
+              { text: "The tasting notes are spot on. Found my new favourite Rum through their guide — perfect for gifting in Mombasa.", name: "Brian O.", date: "1 week ago" },
+              { text: "Best spirits shop on the Coast. They helped me find a 25-year-old single malt for my father's retirement party.", name: "Fatuma A.", date: "3 weeks ago" },
             ].map((review, i) => (
               <div key={i} className="bg-background p-8 rounded-xl shadow-sm border border-border/50">
                 <div className="flex text-[#00b67a] mb-4">

@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <h3 className="font-display text-2xl font-bold text-primary mb-6 tracking-widest">NyaLiqour</h3>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
-              Purveyors of fine and rare spirits since 1999. Discover an unparalleled selection of single malt whiskies, premium gins, and aged rums from around the globe.
+              Nyali's premier destination for fine and rare spirits since 2010. Based in Nyali, Mombasa, we curate an unparalleled selection of single malt whiskies, premium gins, and aged rums from around the globe.
             </p>
             <div className="flex gap-4">
               {/* Fake Social Icons */}
@@ -45,13 +45,14 @@ export function Footer() {
             <p className="text-muted-foreground text-sm mb-4">
               Need assistance finding the perfect bottle? Our experts are here to help.
             </p>
-            <p className="text-foreground font-medium mb-2">0800 123 4567</p>
-            <p className="text-primary text-sm hover:underline cursor-pointer">concierge@nyaliqour.com</p>
+            <p className="text-muted-foreground text-xs mb-2">Nyali Centre, Links Road, Nyali, Mombasa</p>
+            <p className="text-foreground font-medium mb-2">+254 722 345 678</p>
+            <p className="text-primary text-sm hover:underline cursor-pointer">concierge@nyaliqour.co.ke</p>
           </div>
         </div>
 
         <div className="pt-8 border-t border-border/50 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} NyaLiqour. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} NyaLiqour. All rights reserved. Registered in Kenya | Nyali, Mombasa</p>
           <div className="flex gap-4 uppercase font-medium tracking-widest text-[10px]">
             <span>Visa</span>
             <span>Mastercard</span>

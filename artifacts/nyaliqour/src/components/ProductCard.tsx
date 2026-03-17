@@ -56,7 +56,7 @@ export function ProductCard({ product }: ProductCardProps) {
           
           <div className="mt-auto flex items-end justify-between">
             <div>
-              <p className="text-primary font-display font-bold text-xl">£{product.price.toFixed(2)}</p>
+              <p className="text-primary font-display font-bold text-xl">Ksh {product.price.toLocaleString()}</p>
             </div>
             <button 
               onClick={handleAddToCart}

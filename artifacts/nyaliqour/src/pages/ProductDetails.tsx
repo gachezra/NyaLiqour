@@ -161,8 +161,8 @@ export default function ProductDetails() {
           <div className="w-full lg:w-[25%] relative">
             <div className="sticky top-32 bg-card border border-border/50 rounded-2xl p-8 shadow-2xl shadow-black/20">
               <div className="mb-6">
-                <p className="font-display text-4xl md:text-5xl font-bold text-primary mb-2">£{product.price.toFixed(2)}</p>
-                <p className="text-sm text-muted-foreground">£{(product.price / 0.7).toFixed(2)} / litre</p>
+                <p className="font-display text-4xl md:text-5xl font-bold text-primary mb-2">Ksh {product.price.toLocaleString()}</p>
+                <p className="text-sm text-muted-foreground">Ksh {Math.round(product.price / 0.7).toLocaleString()} / litre</p>
               </div>
 
               <div className="flex items-center gap-2 mb-8 text-sm font-medium">
@@ -207,8 +207,8 @@ export default function ProductDetails() {
                 <div className="flex items-start gap-4">
                   <Wind size={24} className="text-primary shrink-0" />
                   <div>
-                    <h4 className="font-bold text-sm mb-1">Next Day Delivery</h4>
-                    <p className="text-xs text-muted-foreground">Order before 2pm for next-day UK delivery.</p>
+                    <h4 className="font-bold text-sm mb-1">Same-Day Mombasa Delivery</h4>
+                    <p className="text-xs text-muted-foreground">Order before 2pm for same-day delivery in Nyali & Mombasa.</p>
                   </div>
                 </div>
               </div>
