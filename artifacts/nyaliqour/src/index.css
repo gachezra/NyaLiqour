@@ -20,6 +20,10 @@
   --color-border: hsl(0 0% 20%);
   --color-ring: hsl(29 57% 46%);
 
+  /* Named color aliases used directly in class names */
+  --color-obsidian: hsl(0 0% 6%);
+  --color-copper: hsl(29 57% 46%);
+
   --font-sans: 'Inter', sans-serif;
   --font-display: 'Playfair Display', serif;
 
